@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+=======
+.input_field
+{
+    height: 50px;
+    margin: 20px auto;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+}
+
+.error {
+    font-size: 14;
+    color: #ff0000;
+}
+
+.success {
+    font-size: 14;
+    color: #00ff9599;
+}
+
+.submit_btn 
+{
+    margin-top: 15px;
+    border: 1px solid #e1e1e1;
+    background: green;
+    outline: none;
+    font-size: 16px;
+}
+>>>>>>> ae760d3248d23c46308e06d1266e7067322ec09b
