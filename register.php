@@ -2,9 +2,9 @@
 
 session_start();
 
-if(isset($_SESSION['userId'])) {
-  header('location: index.php');
-}
+// if(isset($_SESSION['userId'])) {
+//   header('location: index.php');
+// }
 
 require("./db/db.php");
 
@@ -22,6 +22,7 @@ $verifyPassword = "";
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Regsiter</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <?php
@@ -86,6 +87,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register_now'])) {
       </div>
       <div>
         <button type="submit" class="submit_btn" name="register_now">Register Now</button>
+      </div>
+
+      <div>
+        <p>Already have an account? <a href="login.php">Login</a></p>
       </div>
 
       <div class="error"><?php if($errorMessage){ echo $errorMessage; } ?></div>
