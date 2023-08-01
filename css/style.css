@@ -1,5 +1,10 @@
-.input_field {
-    border: 1px solid #e1e1e1
+.input_field
+{
+    height: 50px;
+    margin: 20px auto;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
 }
 
 .error {
