@@ -89,7 +89,7 @@ if (isset($_POST['product_id'])) {
     <header>
         <h1>Welcome to GGSHOP Style</h1>
 				<div>
-					<a href="cart.php" class="cart">
+					<div href="cart.php" class="cart">
 						<?php
 							if(isset($_SESSION['cart'])) {
 								$total = count($_SESSION['cart']);
@@ -98,24 +98,17 @@ if (isset($_POST['product_id'])) {
 								echo "<p>Cart: 0</p>";
 							}
 						?>
-					</a>
+					</div>
 				</div>
     </header>
 
     <div class="container">
-<<<<<<< HEAD
 			<div class="description">
 				<h2>Who We Are</h2>
 				<p>Discover your style with our chic and user-friendly ecommerce website for clothes. Browse a diverse collection of fashion-forward apparel for men, women, and kids. Enjoy high-quality imagery, detailed product descriptions, and easy size guides for a seamless shopping experience. With secure checkout, swift delivery, and excellent customer support, revamp your wardrobe hassle-free. Don't miss exclusive offers and discounts to elevate your fashion game. Shop now and embrace your unique style effortlessly!</p>
 			</div>
 			<a href="#" class="button">Shop Now</a>
     </div>
-=======
-        <div class="description">
-            <h2>Who We Are</h2>
-            <p>Welcome to GGSHOP , your one-stop destination for top-quality cars. We are passionate about cars and dedicated to providing you with an exceptional car buying experience. With an extensive selection of new and pre-owned vehicles, transparent information, and personalized service, we are here to help you find your dream ride effortlessly. Trust us to deliver unparalleled customer satisfaction and a seamless car shopping journey. Drive your aspirations with GGSHOP today!</p>
-        </div>
->>>>>>> 59364cbeb1e0eddf4a11e28596eecc2f7ae671e1
 
     <div>
 			<h4>Products</h4>
