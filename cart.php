@@ -47,4 +47,8 @@ session_start();
       <?php }?>
   </div>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 59364cbeb1e0eddf4a11e28596eecc2f7ae671e1
