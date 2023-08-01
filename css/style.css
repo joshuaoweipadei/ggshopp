@@ -12,6 +12,11 @@
     color: #ff0000;
 }
 
+.success {
+    font-size: 14;
+    color: #00ff9599;
+}
+
 .submit_btn 
 {
     margin-top: 15px;
