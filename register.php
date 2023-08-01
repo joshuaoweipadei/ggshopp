@@ -2,9 +2,9 @@
 
 session_start();
 
-// if(isset($_SESSION['userId'])) {
-//   header('location: index.php');
-// }
+if(isset($_SESSION['userId'])) {
+  header('location: index.php');
+}
 
 require("./db/db.php");
 
